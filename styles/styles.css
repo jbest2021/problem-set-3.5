@@ -1,0 +1,37 @@
+
+h1 {
+  color: #000000;
+  background-color: #ffffff;
+  font-family: 'Inconsolata', cursive;
+  width: 270px;
+}
+
+h2 {
+  color: #ffffff;
+  background-color: #000000
+  font-family: "Helvetica Neue", "Arial",  sans-serif;
+  width: 650px;
+}
+
+h3 {
+  color: #ffffff;
+  background-color: #000000
+  font-family: 'Helvetica Neue', 'Arial',  sans-serif;
+  width: 650px;
+}
+
+p {
+  color: #ffffff;
+  width: 700px;
+  margin: 50px;
+  font-family: "Helvetica Neue", "Arial",  sans-serif;
+  font-size: 15px;
+}
+
+body {
+  background-color: #c1502e;
+}
+
+div {
+    background-color: #ffffff;
+}
