@@ -1,5 +1,5 @@
 h1 {
-  font-family: 
+  font-family:
   color: #000000;
   background-color: #ffffff;
   text-align: center;
@@ -36,10 +36,12 @@ img {
   border-radius: 5px;
   height: 500px;
   width: 700px;
+  margin-left: 240px;
 }
 
 footer{
   font-style: italic;
+  color: #ffffff
 }
 
 ul {
@@ -48,19 +50,29 @@ ul {
 }
 
 a:link {
-  color: #ffffff;
+  color: #000000;
 }
 
 a:visited {
   color: #999999;
 }
+table {
+  color: white;
+  border: 2px solid black;
+
+}
+
+hr {
+  border-color: #c1502e;
+  border-width: thin;
+}
 
 #nav:hover {
-  background-color: #999999;
+  background-color: #ffffff;
 }
 
 #footlink:hover {
-  background-color: #999999;
+  background-color: #ffffff;
 }
 
 a[href*=".com" i] {
@@ -76,7 +88,7 @@ a[href*=".us" i] {
 }
 
 h1 + p {
-  font-style: normal, 
+  font-style: normal,
 }
 
 h2 + p {
