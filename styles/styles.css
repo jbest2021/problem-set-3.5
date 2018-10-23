@@ -1,42 +1,99 @@
 h1 {
-
+  font-family: 
   color: #000000;
   background-color: #ffffff;
-  text-align: center
+  text-align: center;
 }
 
 h2 {
-  color: #ffffff;
-  background-color: #000000
+  color: #000000;
+  background-color: #ffffff;
   font-family: "Helvetica Neue", "Arial",  sans-serif;
-  width: 650px;
-  text-align: center
+  text-align: center;
 }
 
 h3 {
-  color: #ffffff;
-  background-color: #000000
+  color: #000000;
+  background-color: #ffffff;
   font-family: 'Helvetica Neue', 'Arial',  sans-serif;
-  width: 650px;
-  text-align: center
+  text-align: center;
 }
 
 p {
   color: #ffffff;
-  width: 700px;
-  margin: 50px;
   font-family: "Helvetica Neue", "Arial",  sans-serif;
-  font-size: 15px;
-  text-align: center
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
 }
 
 body {
   background-color: #c1502e;
 }
 
-div {
-    background-color: #ffffff;
-}
 img {
-    border: 10px solid #ffffff
+  border: 10px solid black;
+  border-radius: 5px;
+  height: 500px;
+  width: 700px;
+}
+
+footer{
+  font-style: italic;
+}
+
+ul {
+  color: #000000;
+  background-color: #ffffff
+}
+
+a:link {
+  color: #ffffff;
+}
+
+a:visited {
+  color: #999999;
+}
+
+#nav:hover {
+  background-color: #999999;
+}
+
+#footlink:hover {
+  background-color: #999999;
+}
+
+a[href*=".com" i] {
+  color: #999999;
+}
+
+a[href*=".org" i] {
+  color: #999999;
+}
+
+a[href*=".us" i] {
+  color: #999999;
+}
+
+h1 + p {
+  font-style: normal, 
+}
+
+h2 + p {
+  font-style: normal;
+}
+
+img + p {
+  font-weight: bold;
+}
+
+.sections {
+  text-align: left;
+  font-style: cursive;
+  font weight: bold;
+}
+
+.links {
+  font weight: bold;
+  color: #ffffff;
 }
